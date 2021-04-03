@@ -6,7 +6,7 @@
 
 body {
     font-size: 16px;
-    background-color: hsl(270, 20%, 96%);
+    background-color: hsl(0, 0%, 100%);
     font-family: 'Rubik', sans-serif;
 }
 
@@ -15,13 +15,13 @@ body {
 }
 
 .mobile {
-    width: 350px;
-    height: 635px;
+    width: 300px;
+    height: 670px;
     border: 12px solid  hsl(0, 0%, 100%);
     border-radius: 32px;
-    margin-top: 40px;
-    margin-left: 60px;
+    margin: 85px auto;
     box-shadow: 0 10px 20px hsl(206, 6%, 79%);
+    background-color:hsl(270, 20%, 96%) ;
 }
 
 .header {
@@ -33,9 +33,9 @@ body {
 .header::before {
     content: '';
     position: absolute;
-    top: 52px;
-    left: 140px;
-    width: 200px;
+    top: 97px;
+    left: 110px;
+    width: 160px;
     height: 27px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 0px 0px 16px 16px;
@@ -53,6 +53,7 @@ body {
     margin-top: 0px;
     margin-right: 15px;
     opacity: 0.8;
+
 }
 
 .cont::before {
@@ -78,8 +79,8 @@ body {
 }
 
 .head img {
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     margin-right: 10px;
     margin-top: 2px;
@@ -90,12 +91,12 @@ body {
     color: hsl(0, 0%, 100%);
     margin-top: -4px;
     font-weight: 500px;
-    font-size: 18px;
+    font-size: 15px;
     margin-bottom: 2px;
 }
 
 .status {
-    font-size; 14px;
+    font-size: 12px;
     color: hsl(0, 0%, 100%);
     opacity: 0.6;
 }
@@ -104,7 +105,7 @@ body {
     position: absolute;
     width: 4px;
     height: 4px;
-    margin-left: 280px;
+    margin-left: 240px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 50%;
 }
@@ -144,13 +145,14 @@ body {
 }
 
 .reply {
-    background-color: hsl(206, 6%, 79%);
-    max-width: 60%;
+    background-color: hsla(206, 6%, 79%,.2);
+    max-width: 70%;
     margin-bottom: 8px;
     padding: 8px 10px 8px 12px;
     border-bottom-left-radius: 0px;
     color: hsl(274, 55%, 52%);
     margin-left: 4px;
+
 }
 
 .images {
@@ -180,19 +182,27 @@ body {
     margin-right: 5px;
 }
 
+.user0 {
+    width: 60%;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 100px
+
+}
+
 .user1 {
     margin-left: auto;
-    margin-bottom; 7px;
+    margin-bottom: 17px;
 }
 
 .offer {
-    max-width: 65%;
+    max-width: 70%;
     background: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
     padding: 2px 25px 2px 13px;
     color: hsl(0, 0%, 100%);
-    display: inline-flex;
+    display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     border-radius: 15px;
     border-bottom-left-radius: 0;
     margin-bottom: 8px;
@@ -209,6 +219,7 @@ body {
 }
 
 .offer p {
+
     margin-left: -12px;
     opacity: 0.8;
 }
@@ -218,8 +229,8 @@ body {
     font-weight: 700;
 }
 
-hour {
-    margin-left: -32px !important;
+.hour {
+   margin-bottom: 19px;
 }
 
 form {
@@ -240,19 +251,28 @@ input:focus {
 }
 
 .arrow {
-    font-size: 30px;
+    font-size: 25px;
     color: hsl(0, 0%, 100%);
     background-color: hsl(271, 36%, 24%);
     border-radius: 50%;
     padding: 0px 11px;
     height: 36px;
     margin-left: -47px;
-    margin-top: 7px;
+    margin-top: 8px;
     z-index: 100;
+    padding-top: 4px;
     cursor: pointer;
 }
 
-
+h2{
+    text-align: center;
+    padding-top: 0px;
+}
+p {
+    text-align: center;
+    padding: 20px 40px;
+    line-height: 25px
+}
 
 
 
